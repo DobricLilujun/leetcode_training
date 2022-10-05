@@ -6,6 +6,7 @@ class Solution:
         rr = len(nums2)
         low =0
         high = ll
+        print ("i 澳门lujun")
         while (low <= high):
             xx = int((low+high) /2)
             yy = int((ll+ rr + 1)/2) - xx
