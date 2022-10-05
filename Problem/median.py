@@ -14,7 +14,7 @@ class Solution:
             maxlefty = -10000 if yy == 0 else nums2[yy-1]
             minrightx = 10000 if xx ==ll else nums1[xx]
             minrighty = 10000 if yy ==rr else nums2[yy]
-            print ("hello")
+            print ("hello111")
             
             if ((maxleftx <=minrighty) &(maxlefty <=minrightx)):
                 if ((ll+rr)%2 ==0):
